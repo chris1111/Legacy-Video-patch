@@ -19,6 +19,12 @@ For macOS Catalina 10.15 (B-7)
 - Tester: chris1111, emax31, guillermomanuel, arcade33, C.Frio
 - Packager: chris1111
 
+### My result in macOS Catalina 10.15 beta (7)
+- ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/legacy10.jpg)
+
+### My result in macOS Catalina 10.15 beta (7)
+- ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/legacy11.jpg)
+
 
 ### Download ➤ [Legacy Video patch-B7.pkg.zip](https://github.com/chris1111/Legacy-Video-patch/releases/tag/v1)
 - For macOS Catalina Beta 7
