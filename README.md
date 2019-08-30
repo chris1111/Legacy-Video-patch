@@ -16,7 +16,7 @@ For macOS Catalina 10.15 (B-7)
 
 #### Credit: 
 - Fix/Patch: [dosdude1](https://forums.macrumors.com/members/dosdude1.669685/), [AsentientBot](https://forums.macrumors.com/members/asentientbot.1135186/)
-- Tester: chris1111, emax31, guillermomanuel, arcade33, C.Frio
+- Tester: chris1111, C.Frio, arqueox
 - Packager: chris1111
 
 ### My result for a GeForce 210 in macOS Catalina 10.15 beta (7)
