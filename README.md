@@ -1,6 +1,10 @@
-# Legacy-Video-patch
-
+# Legacy Video patch
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/backgr12.png)
+
+This is a Fix for Graphics Intel HD 3000 and  fix Old NVIDIA Graphics for macOS Catalina 10.15
+
+Support Graphics Intel HD 3000.
+Support: GeForce 5xx, 4xx, 2xx, 8600M(GT)/8800M(GT), 9400M/9600M(GT), 320M/330M 
 
 
 For macOS Catalina 10.15 (B-7)
@@ -16,4 +20,9 @@ For macOS Catalina 10.15 (B-7)
 - Packager: chris1111
 
 
-### Download ➤ [Legacy Video patch-B7.pkg.zip]()
+### Download ➤ [Legacy Video patch-B7.pkg.zip](https://github.com/chris1111/Legacy-Video-patch/releases/tag/v1)
+- For macOS Catalina Beta 7
+
+
+
+
