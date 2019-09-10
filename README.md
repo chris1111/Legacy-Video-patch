@@ -32,6 +32,8 @@ Clic to the image to view the post ⬇︎
 
 ### Download ➤ [Legacy Video patch-B7.pkg.zip](https://github.com/chris1111/Legacy-Video-patch/releases/tag/v1)
 - For macOS Catalina Beta 7
+- Update 10 sept 2019 New SkyLight.framework
+
 
 
 
