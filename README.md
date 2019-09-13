@@ -30,6 +30,10 @@ Clic to the image to view the post ⬇︎
 [![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/img_2011.jpg)](https://forums.macrumors.com/threads/macos-10-15-catalina-on-unsupported-macs.2183772/page-68#post-27476556)
 
 
+### Download ➤ [Legacy Video patch-B8.pkg.zip](https://github.com/chris1111/Legacy-Video-patch/releases/tag/V2)
+- For macOS Catalina Beta 8
+- Update 13 sept 2019 
+
 ### Download ➤ [Legacy Video patch-B7.pkg.zip](https://github.com/chris1111/Legacy-Video-patch/releases/tag/v1)
 - For macOS Catalina Beta 7
 - Update 10 sept 2019 New SkyLight.framework
