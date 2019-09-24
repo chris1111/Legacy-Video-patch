@@ -7,7 +7,7 @@ Support Graphics Intel HD 3000.
 Support: GeForce 5xx, 4xx, 2xx, 8600M(GT)/8800M(GT), 9400M/9600M(GT), 320M/330M 
 
 
-For macOS Catalina 10.15 (B-7)
+For macOS Catalina 10.15 (Beta)
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/webp_n20.gif)
 
 ### A macOS Package to activate the legacy video Intel HD 3000 and the old Nvidia graphics card in macOS Catalina
