@@ -29,6 +29,9 @@ For macOS Catalina 10.15 (Beta)
 Clic to the image to view the post ⬇︎
 [![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/img_2011.jpg)](https://forums.macrumors.com/threads/macos-10-15-catalina-on-unsupported-macs.2183772/page-68#post-27476556)
 
+### Download ➤ [Legacy Video patch-B10.pkg.zip](https://github.com/chris1111/Legacy-Video-patch/releases/tag/V4)
+- For macOS Catalina Beta 10
+- Update 01 Oct 2019 
 
 ### Download ➤ [Legacy Video patch-B9.pkg.zip](https://github.com/chris1111/Legacy-Video-patch/releases/tag/V3)
 - For macOS Catalina Beta 9
