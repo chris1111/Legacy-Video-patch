@@ -14,7 +14,7 @@ For macOS Catalina 10.15  Beta and Release
 
 ### A macOS Package to activate the legacy video Intel HD 3000 and the old Nvidia graphics card in macOS Catalina
 - Testing on Real Mac and Hackintosh
-- Working for macOS Catalina 10.15.(Beta-7)
+- Working for macOS Catalina 10.15
 
 #### Credit: 
 - Fix/Patch: [dosdude1](https://forums.macrumors.com/members/dosdude1.669685/), [AsentientBot](https://forums.macrumors.com/members/asentientbot.1135186/)
