@@ -2,8 +2,12 @@
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/backgr12.png)
 
 ### Update 03 Nov 2019
+- Add Package-Creator.command
 - Fix Transparency by [AsentientBot](https://forums.macrumors.com/members/asentientbot.1135186/)
 
+#### Follow Video ⬇︎ How to use
+
+[![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/video12.png)](https://youtu.be/y-m4Prr3Z8Q)
 
 This is a Fix for Graphics Intel HD 3000 and  fix Old NVIDIA Graphics for macOS Catalina 10.15
 
@@ -33,37 +37,6 @@ For macOS Catalina 10.15  Beta and Release
 Clic to the image to view the post ⬇︎
 [![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/img_2011.jpg)](https://forums.macrumors.com/threads/macos-10-15-catalina-on-unsupported-macs.2183772/page-68#post-27476556)
 
-### Download ➤ [Legacy Video patch-(19B88).zip](https://github.com/chris1111/Legacy-Video-patch/releases/tag/V8)
-- For macOS Catalina 10.15.1 (19B88)
-- Update 03 Nov 2019
-
-### Download ➤ [Legacy Video patch-(19A603).zip](https://github.com/chris1111/Legacy-Video-patch/releases/tag/V7)
-- For macOS Catalina 10.15 (19A603)
-- Update 26 Oct 2019
-
-### Download ➤ [Legacy Video patch-(19A583).zip](https://github.com/chris1111/Legacy-Video-patch/releases/tag/V6)
-- For macOS Catalina 10.15 (19A583)
-- Update 13 Oct 2019
-
-### Download ➤ [Legacy Video patch-B11 GM.pkg.zip](https://github.com/chris1111/Legacy-Video-patch/releases/tag/V5)
-- For macOS Catalina Beta 11 GM
-- Update 04 Oct 2019 
-
-### Download ➤ [Legacy Video patch-B10.pkg.zip](https://github.com/chris1111/Legacy-Video-patch/releases/tag/V4)
-- For macOS Catalina Beta 10
-- Update 01 Oct 2019 
-
-### Download ➤ [Legacy Video patch-B9.pkg.zip](https://github.com/chris1111/Legacy-Video-patch/releases/tag/V3)
-- For macOS Catalina Beta 9
-- Update 24 sept 2019 
-
-### Download ➤ [Legacy Video patch-B8.pkg.zip](https://github.com/chris1111/Legacy-Video-patch/releases/tag/V2)
-- For macOS Catalina Beta 8
-- Update 13 sept 2019 
-
-### Download ➤ [Legacy Video patch-B7.pkg.zip](https://github.com/chris1111/Legacy-Video-patch/releases/tag/v1)
-- For macOS Catalina Beta 7
-- Update 10 sept 2019 New SkyLight.framework
 
 
 
