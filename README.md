@@ -1,7 +1,9 @@
 # Legacy Video patch
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/backgr12.png)
 
-### Update 13 Oct 2019
+### Update 03 Nov 2019
+- Fix Transparency by [AsentientBot](https://forums.macrumors.com/members/asentientbot.1135186/)
+
 
 This is a Fix for Graphics Intel HD 3000 and  fix Old NVIDIA Graphics for macOS Catalina 10.15
 
