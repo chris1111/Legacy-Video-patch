@@ -5,9 +5,12 @@
 - Add Package-Creator.command
 - Fix Transparency by [AsentientBot](https://forums.macrumors.com/members/asentientbot.1135186/)
 
+
 #### Follow Video ⬇︎ How to use
 
 [![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/video12.png)](https://youtu.be/y-m4Prr3Z8Q)
+
+- git clone https://github.com/chris1111/Legacy-Video-patch.git
 
 This is a Fix for Graphics Intel HD 3000 and  fix Old NVIDIA Graphics for macOS Catalina 10.15
 
