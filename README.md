@@ -6,9 +6,9 @@
 - Fix Transparency by [AsentientBot](https://forums.macrumors.com/members/asentientbot.1135186/)
 
 
-#### Follow Video ⬇︎ How to use
+#### Follow Video ⬇︎ How to Create Package
 
-[![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/video12.png)](https://youtu.be/y-m4Prr3Z8Q)
+[![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/video12.png)](https://youtu.be/MjAV6EpCTSw)
 
 - git clone https://github.com/chris1111/Legacy-Video-patch.git
 
