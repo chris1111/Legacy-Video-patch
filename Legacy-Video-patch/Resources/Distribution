@@ -7,7 +7,7 @@
     <script>function pm_install_check() {
   if(!(/* &gt;= */ system.compareVersions(system.version.ProductVersion, '10.15.1') &gt;= 0)) {
     my.result.title = 'Failure';
-    my.result.message = 'This programm works for macOS Catalina 10.15.1 Use on macOS Catalina 10.15.1 and install only on macOS Catalina 10.15.1';
+    my.result.message = 'This programm works for macOS Catalina 10.15.1 and above. Use on macOS Catalina 10.15 xxx and install only on macOS Catalina 10.15';
     my.result.type = 'Fatal';
     return false;
   }
