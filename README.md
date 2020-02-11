@@ -1,8 +1,8 @@
 # Legacy Video patch
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/backgr12.png)
 
-### Latest Update 09 Fev 2020
-- Modification distribution
+### Latest Update 11 Fev 2020
+- Update CoreDisplay and Skylight Frameworks patch by [AsentientBot](https://forums.macrumors.com/members/asentientbot.1135186/)
 
 ### Update 03 Nov 2019
 - Add Package-Creator.command
