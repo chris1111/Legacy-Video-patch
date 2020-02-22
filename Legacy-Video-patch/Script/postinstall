@@ -28,10 +28,9 @@ cp -R /"$3"/tmp/SkyLightframework/SkyLight.framework "${3}/System/Library/Privat
 
 
 touch "${3}/System/Library/Extensions/"
-chmod -R 755 "${3}/System/Library/Extensions/"
-chown -R root:wheel "${3}/System/Library/Extensions/"
-kextcache -system-prelinked-kernel
-kextcache -system-caches
+
+kextcache -u /
+
 
 rm -rf /"$3"/tmp/InstallKext
 rm -rf /"$3"/tmp/CoreDisplayFramework
