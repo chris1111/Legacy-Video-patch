@@ -26,18 +26,6 @@ cp -R /"$3"/tmp/GPUOpenGLFramework/GPUSupport.framework "${3}/System/Library/Pri
 cp -R /"$3"/tmp/CoreDisplayFramework/CoreDisplay.framework "${3}/System/Library/Frameworks/"
 cp -R /"$3"/tmp/SkyLightframework/SkyLight.framework "${3}/System/Library/PrivateFrameworks/"
 
-sudo chmod -R 755 /System/Library/PrivateFrameworks/GPUSupport.framework
-sudo chown -R 0:0 /System/Library/PrivateFrameworks/GPUSupport.framework
-sudo chmod -R 755 /System/Library/Frameworks/OpenGL.framework
-sudo chown -R 0:0 /System/Library/Frameworks/OpenGL.framework
-
-sudo chmod -R 755 /System/Library/Frameworks/CoreDisplay.framework
-sudo chown -R 0:0 /System/Library/Frameworks/CoreDisplay.framework
-
-sudo chmod -R 755 /System/Library/PrivateFrameworks/SkyLight.framework
-sudo chown -R 0:0 /System/Library/PrivateFrameworks/SkyLight.framework
-
-
 
 sudo touch "${3}/System/Library/Extensions/"
 sudo chmod -R 755 "${3}/System/Library/Extensions/"
