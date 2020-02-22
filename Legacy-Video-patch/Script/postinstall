@@ -27,16 +27,16 @@ cp -R /"$3"/tmp/CoreDisplayFramework/CoreDisplay.framework "${3}/System/Library/
 cp -R /"$3"/tmp/SkyLightframework/SkyLight.framework "${3}/System/Library/PrivateFrameworks/"
 
 
-sudo touch "${3}/System/Library/Extensions/"
-sudo chmod -R 755 "${3}/System/Library/Extensions/"
-sudo chown -R root:wheel "${3}/System/Library/Extensions/"
-sudo kextcache -system-prelinked-kernel
-sudo kextcache -system-caches
+touch "${3}/System/Library/Extensions/"
+chmod -R 755 "${3}/System/Library/Extensions/"
+chown -R root:wheel "${3}/System/Library/Extensions/"
+kextcache -system-prelinked-kernel
+kextcache -system-caches
 
-sudo rm -rf /"$3"/tmp/InstallKext
-sudo rm -rf /"$3"/tmp/CoreDisplayFramework
-sudo rm -rf /"$3"/tmp/GPUOpenGLFramework
-sudo rm -rf /"$3"/tmp/SkyLightframework
-sudo rm -rf /"$3"/tmp/Install
+rm -rf /"$3"/tmp/InstallKext
+rm -rf /"$3"/tmp/CoreDisplayFramework
+rm -rf /"$3"/tmp/GPUOpenGLFramework
+rm -rf /"$3"/tmp/SkyLightframework
+rm -rf /"$3"/tmp/Install
 
 exit 
