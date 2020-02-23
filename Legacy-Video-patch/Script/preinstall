@@ -5,7 +5,7 @@
 #############################################
 
 
-sudo mount -uw /
+mount -uw /
 Sleep 2
 
 killall Finder
