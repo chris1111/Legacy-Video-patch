@@ -4,12 +4,8 @@
 # Legacy Video patch
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/backgr12.png)
 
-### Latest Update 22 Feb 2020
-- Update CoreDisplay and Skylight Frameworks patch by [AsentientBot](https://forums.macrumors.com/threads/macos-10-15-catalina-on-unsupported-macs.2183772/page-329?post=28196621#post-28196621)
-
-### Update 03 Nov 2019
-- Add Package-Creator.command
-- Fix Transparency by [AsentientBot](https://forums.macrumors.com/members/asentientbot.1135186/)
+### Latest Update 15 march 2020
+- Update CoreDisplay and Skylight Frameworks patch by [AsentientBot](https://forums.macrumors.com/threads/macos-10-15-catalina-on-unsupported-macs.2183772/post-28282292)
 
 
 #### Follow Video ⬇︎ How to Create Package
