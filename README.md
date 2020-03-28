@@ -4,8 +4,10 @@
 # Legacy Video patch
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/backgr12.png)
 
-### Latest Update 15 march 2020
-- Update CoreDisplay and Skylight Frameworks patch by [AsentientBot](https://forums.macrumors.com/threads/macos-10-15-catalina-on-unsupported-macs.2183772/post-28282292)
+### Latest Update 28 March 2020
+- For macOS Catalina 10.15.4+
+Install ➣ /Library/Preferences/com.apple.security.libraryvalidation.plist
+- NOTE: Make sure for this version that the SIP is totally disable
 
 
 #### Follow Video ⬇︎ How to Create Package
