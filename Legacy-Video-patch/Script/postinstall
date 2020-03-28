@@ -4,6 +4,24 @@
 #
 # By chris1111
 
+if [[ $(sw_vers -productVersion) == "10.15.4" ]]; then
+    echo "Latest Catalina"
+defaults write /Library/Preferences/com.apple.security.libraryvalidation.plist DisableLibraryValidation -bool true
+echo "Install plist"
+fi
+
+if [[ $(sw_vers -productVersion) == "10.15.5" ]]; then
+    echo "Latest Catalina"
+defaults write /Library/Preferences/com.apple.security.libraryvalidation.plist DisableLibraryValidation -bool true
+echo "Install plist"
+fi
+
+if [[ $(sw_vers -productVersion) == "10.15.6" ]]; then
+    echo "Latest Catalina"
+defaults write /Library/Preferences/com.apple.security.libraryvalidation.plist DisableLibraryValidation -bool true
+echo "Install plist"
+fi
+
 cp -R /"$3"/tmp/InstallKext/GeForceTesla.kext "${3}/System/Library/Extensions/"
 cp -R /"$3"/tmp/InstallKext/GeForceTeslaGLDriver.bundle "${3}/System/Library/Extensions/"
 cp -R /"$3"/tmp/InstallKext/GeForceTeslaVADriver.bundle "${3}/System/Library/Extensions/"
