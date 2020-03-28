@@ -24,3 +24,6 @@ Install /System/Library/PrivateFrameworks/GPUSupport.framework
 Install /System/Library/PrivateFrameworks/SkyLight.framework
 Install /System/Library/Frameworks/OpenGL.framework
 Install /System/Library/Frameworks/CoreDisplay.framework
+
+For macOS Catalina 10.15.4+ Install ➣ /Library/Preferences/com.apple.security.libraryvalidation.plist
+NOTE: Make sure for this version that the SIP is totally disable
