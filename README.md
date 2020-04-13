@@ -9,8 +9,6 @@
 Install ➣ /Library/Preferences/com.apple.security.libraryvalidation.plist
 - NOTE: Make sure for this version that the SIP is totally disable
 
-## For ➣  [macOS Mojave 10.14](https://github.com/chris1111/Legacy-Video-Patch-Mojave)
-
 
 #### Follow Video ⬇︎ How to Create Package
 
@@ -26,6 +24,8 @@ Support: GeForce 5xx, 4xx, 2xx, 8600M(GT)/8800M(GT), 9400M/9600M(GT), 320M/330M
 
 For macOS Catalina 10.15  Beta and Release
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/webp_n20.gif)
+
+#### For ➣  [macOS Mojave 10.14](https://github.com/chris1111/Legacy-Video-Patch-Mojave)
 
 ### A macOS Package to activate the legacy video Intel HD 3000 and the old Nvidia graphics card in macOS Catalina
 - Testing on Real Mac and Hackintosh
