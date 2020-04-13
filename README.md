@@ -9,6 +9,8 @@
 Install ➣ /Library/Preferences/com.apple.security.libraryvalidation.plist
 - NOTE: Make sure for this version that the SIP is totally disable
 
+## For ➣  [macOS Mojave 10.14](https://github.com/chris1111/Legacy-Video-Patch-Mojave)
+
 
 #### Follow Video ⬇︎ How to Create Package
 
