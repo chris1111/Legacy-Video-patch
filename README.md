@@ -25,8 +25,8 @@ Support: GeForce 5xx, 4xx, 2xx, 8600M(GT)/8800M(GT), 9400M/9600M(GT), 320M/330M
 For macOS Catalina 10.15  Beta and Release
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/webp_n20.gif)
 
-#### For ➣  [macOS Mojave 10.14](https://github.com/chris1111/Legacy-Video-Patch-Mojave)
-
+#### For ➣  [macOS Mojave 10.14 (Nvidia)](https://github.com/chris1111/Fix-Old-NVIDIA-macOS-Mojave)
+#### For ➣  [macOS Mojave 10.14 (Intel HD 3000)](https://github.com/chris1111/Fix-Graphics-HD-3000-Mojave-10.14)
 ### A macOS Package to activate the legacy video Intel HD 3000 and the old Nvidia graphics card in macOS Catalina
 - Testing on Real Mac and Hackintosh
 - Working for macOS Catalina 10.15
