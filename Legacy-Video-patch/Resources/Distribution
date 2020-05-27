@@ -21,22 +21,25 @@
     <choices-outline>
         <line choice="choice43">
             <line choice="choice79"/>
+            <line choice="choice80"/>
         </line>
     </choices-outline>
-    <choice id="choice43" title="Legacy Video patch" description="Legacy Video patch This is a Fix for Graphics Intel HD 3000 and  fix Old NVIDIA Graphics for macOS Catalina 10.15++ (*****) Support Graphics Intel HD 3000. Support: GeForce 5xx, 4xx, 2xx, 8600M(GT)/8800M(GT), 9400M/9600M(GT), 320M/330M " start_selected="false">
+    <choice id="choice43" title="Legacy Video patch" description="Kexts to be modified in /System/Library/Extensions/: &#10;&#10;IOHIDFamily.kext &#10;IOSurface.kext &#10;&#10;&#10;Frameworks to be modified in /System/Library/: &#10;&#10;OpenGL.framework &#10;CoreDisplay.framework &#10;&#10;&#10;PrivateFrameworks to be modified in /System/Library/: &#10;&#10;GPUSupport.framework &#10;SkyLight.framework &#10;&#10;&#10;For macOS Catalina 10.15.4+: &#10;&#10;Install ➣ /Library/Preferences/com.apple.security.libraryvalidation.plist &#10;NOTE: Make sure for this version that the SIP is totally disabled." start_selected="false">
         <pkg-ref id="com.chris1111.legacyVideoPatch.GPUFramework.pkg"/>
         <pkg-ref id="com.chris1111.legacyVideoPatch.DisplayFramework.pkg"/>
         <pkg-ref id="com.chris1111.legacyVideoPatch.SkyLight.pkg"/>
-        <pkg-ref id="com.chris1111.legacyVideoPatch.KEXT.pkg"/>
-    </choice>
-    <choice id="choice79" title="Legacy Video patch (10.15++)" description="Legacy Video patch This is a Fix for Graphics Intel HD 3000 and  fix Old NVIDIA Graphics for macOS Catalina 10.15++ (*****) Support Graphics Intel HD 3000. Support: GeForce 5xx, 4xx, 2xx, 8600M(GT)/8800M(GT), 9400M/9600M(GT), 320M/330M  Install /System/Library/Extensions/ AppleIntelHD3000Graphics.kext AppleIntelHD3000GraphicsGA.plugin AppleIntelHD3000GraphicsGLDriver.bundle AppleIntelHD3000GraphicsVADriver.bundle AppleIntelSNBGraphicsFB.kext AppleIntelSNBVA.bundle GeForceTesla.kext GeForceTeslaGLDriver.bundle GeForceTeslaVADriver.bundle NDRVShim.kext NVDANV50HalTesla.kext NVDAResmanTesla.kext IOSurface.kext  Install /System/Library/PrivateFrameworks/GPUSupport.framework Install /System/Library/PrivateFrameworks/SkyLight.framework Install /System/Library/Frameworks/OpenGL.framework Install /System/Library/Frameworks/CoreDisplay.framework 
-For macOS Catalina 10.15.4+ Install ➣ /Library/Preferences/com.apple.security.libraryvalidation.plist
-NOTE: Make sure for this version that the SIP is totally disable" start_selected="false">
         <pkg-ref id="com.chris1111.legacyVideoPatch.Install.pkg"/>
+    </choice>
+    <choice id="choice79" title="Intel HD Graphics 3000 Patch" description="Kexts to be installed in /System/Library/Extensions/: &#10;&#10;AppleIntelHD3000Graphics.kext &#10;AppleIntelHD3000GraphicsGA.plugin &#10;AppleIntelHD3000GraphicsGLDriver.bundle &#10;AppleIntelHD3000GraphicsVADriver.bundle &#10;AppleIntelSNBGraphicsFB.kext &#10;AppleIntelSNBVA.bundle" start_selected="true">
+        <pkg-ref id="com.chris1111.legacyVideoPatch.KextSNB.pkg"/>
+    </choice>
+    <choice id="choice80" title="Legacy NVIDIA Graphics Patch" description="Kexts to be installed in /System/Library/Extensions/: &#10;&#10;GeForceTesla.kext &#10;GeForceTeslaGLDriver.bundle &#10;GeForceTeslaVADriver.bundle &#10;NDRVShim.kext &#10;NVDANV50HalTesla.kext &#10;NVDAResmanTesla.kext" start_selected="false">
+        <pkg-ref id="com.chris1111.legacyVideoPatch.KextNDRV.pkg"/>
     </choice>
     <pkg-ref id="com.chris1111.legacyVideoPatch.GPUFramework.pkg" installKBytes="74712" version="1.0" auth="Root" onConclusion="RequireRestart">#gpuframework.pkg</pkg-ref>
     <pkg-ref id="com.chris1111.legacyVideoPatch.DisplayFramework.pkg" installKBytes="1220" version="1.0" auth="Root">#displayframework.pkg</pkg-ref>
     <pkg-ref id="com.chris1111.legacyVideoPatch.SkyLight.pkg" installKBytes="11860" version="1.0" auth="Root">#skylight.pkg</pkg-ref>
-    <pkg-ref id="com.chris1111.legacyVideoPatch.KEXT.pkg" installKBytes="99528" version="1.0" auth="Root">#kext.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.legacyVideoPatch.KextSNB.pkg" installKBytes="15514" version="1.0" auth="Root">#kextsnb.pkg</pkg-ref>
+    <pkg-ref id="com.chris1111.legacyVideoPatch.KextNDRV.pkg" installKBytes="86083" version="1.0" auth="Root">#kextndrv.pkg</pkg-ref>
     <pkg-ref id="com.chris1111.legacyVideoPatch.Install.pkg" installKBytes="0" version="1.0" auth="Root" onConclusion="RequireRestart">#install.pkg</pkg-ref>
 </installer-script>

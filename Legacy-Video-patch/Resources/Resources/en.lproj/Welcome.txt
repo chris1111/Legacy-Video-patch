@@ -1,29 +1,39 @@
-Legacy Video patch
-This is a Fix for Graphics Intel HD 3000 and  fix Old NVIDIA Graphics for macOS Catalina 10.15++ (*****)
+This is a fix for Intel HD 3000 and legacy NVIDIA graphics for macOS Catalina 10.15.+.
 
-Support Graphics Intel HD 3000.
-Support: GeForce 5xx, 4xx, 2xx, 8600M(GT)/8800M(GT), 9400M/9600M(GT), 320M/330M 
+Supported: Intel HD Graphics 3000; GeForce 5xx, 4xx, 2xx, 8600M(GT), 8800M(GT), 9400M, 9600M(GT), 320M, 330M.
 
+Kernel extensions to be installed or modified:
 
-Install /System/Library/Extensions/
 AppleIntelHD3000Graphics.kext
 AppleIntelHD3000GraphicsGA.plugin
 AppleIntelHD3000GraphicsGLDriver.bundle
 AppleIntelHD3000GraphicsVADriver.bundle
 AppleIntelSNBGraphicsFB.kext
 AppleIntelSNBVA.bundle
+
 GeForceTesla.kext
 GeForceTeslaGLDriver.bundle
 GeForceTeslaVADriver.bundle
 NDRVShim.kext
 NVDANV50HalTesla.kext
 NVDAResmanTesla.kext
+
 IOSurface.kext
 
-Install /System/Library/PrivateFrameworks/GPUSupport.framework
-Install /System/Library/PrivateFrameworks/SkyLight.framework
-Install /System/Library/Frameworks/OpenGL.framework
-Install /System/Library/Frameworks/CoreDisplay.framework
 
-For macOS Catalina 10.15.4+ Install ➣ /Library/Preferences/com.apple.security.libraryvalidation.plist
-NOTE: Make sure for this version that the SIP is totally disable
+PrivateFrameworks to be modified:
+
+GPUSupport.framework
+SkyLight.framework
+
+
+Frameworks to be modified:
+OpenGL.framework
+CoreDisplay.framework
+
+
+For macOS Catalina 10.15.4+
+
+Install ➣ /Library/Preferences/com.apple.security.libraryvalidation.plist
+
+NOTE: Make sure for this version that the SIP is totally disabled.
