@@ -1,7 +1,7 @@
 #!/bin/sh
 
 spctl --master-disable
-mount -uw "${3}/"
+mount -uw /
 Sleep 2
 killall Finder
 

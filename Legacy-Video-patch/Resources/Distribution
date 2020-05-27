@@ -24,7 +24,7 @@
             <line choice="choice80"/>
         </line>
     </choices-outline>
-    <choice id="choice43" title="Legacy Video patch" description="Kexts to be modified in /System/Library/Extensions/: &#10;&#10;IOHIDFamily.kext &#10;IOSurface.kext &#10;&#10;&#10;Frameworks to be modified in /System/Library/: &#10;&#10;OpenGL.framework &#10;CoreDisplay.framework &#10;&#10;&#10;PrivateFrameworks to be modified in /System/Library/: &#10;&#10;GPUSupport.framework &#10;SkyLight.framework &#10;&#10;&#10;For macOS Catalina 10.15.4+: &#10;&#10;Install ➣ /Library/Preferences/com.apple.security.libraryvalidation.plist &#10;NOTE: Make sure for this version that the SIP is totally disabled." start_selected="false">
+    <choice id="choice43" title="Legacy Video Patch" description="Kexts to be modified in /System/Library/Extensions/: &#10;&#10;IOHIDFamily.kext &#10;IOSurface.kext &#10;&#10;&#10;Frameworks to be modified in /System/Library/: &#10;&#10;OpenGL.framework &#10;CoreDisplay.framework &#10;&#10;&#10;PrivateFrameworks to be modified in /System/Library/: &#10;&#10;GPUSupport.framework &#10;SkyLight.framework &#10;&#10;&#10;For macOS Catalina 10.15.4+: &#10;&#10;Install ➣ /Library/Preferences/com.apple.security.libraryvalidation.plist &#10;NOTE: Make sure for this version that the SIP is totally disabled." start_selected="false">
         <pkg-ref id="com.chris1111.legacyVideoPatch.GPUFramework.pkg"/>
         <pkg-ref id="com.chris1111.legacyVideoPatch.DisplayFramework.pkg"/>
         <pkg-ref id="com.chris1111.legacyVideoPatch.SkyLight.pkg"/>
