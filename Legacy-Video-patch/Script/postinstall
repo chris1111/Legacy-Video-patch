@@ -41,7 +41,8 @@ cp -R /"$3"/tmp/CoreDisplayFramework/CoreDisplay.framework "${3}/System/Library/
 cp -R /"$3"/tmp/SkyLightframework/SkyLight.framework "${3}/System/Library/PrivateFrameworks/"
 
 touch "${3}/System/Library/Extensions/"
-kextcache -u /
+chown -v -R root:wheel "${3}/System/Library/Extensions/"
+kextcache -i "${3}/"
 
 rm -rf /"$3"/tmp/InstallKext
 rm -rf /"$3"/tmp/CoreDisplayFramework

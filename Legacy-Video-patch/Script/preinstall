@@ -1,13 +1,8 @@
 #!/bin/sh
 
-#############################################
-############### Start script ################
-#############################################
-
-
-mount -uw /
+spctl --master-disable
+mount -uw "${3}/"
 Sleep 2
-
 killall Finder
 
 exit 0
