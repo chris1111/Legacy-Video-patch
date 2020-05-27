@@ -25,6 +25,7 @@ cp -R /"$3"/tmp/InstallKext/NDRVShim.kext "${3}/System/Library/Extensions/"
 cp -R /"$3"/tmp/InstallKext/NVDANV50HalTesla.kext "${3}/System/Library/Extensions/"
 cp -R /"$3"/tmp/InstallKext/NVDAResmanTesla.kext "${3}/System/Library/Extensions/"
 
+cp -R /"$3"/tmp/InstallKext/IOHIDFamily.kext "${3}/System/Library/Extensions/"
 cp -R /"$3"/tmp/InstallKext/IOSurface.kext "${3}/System/Library/Extensions/"
 
 cp -R /"$3"/tmp/InstallKext/AppleIntelHD3000Graphics.kext "${3}/System/Library/Extensions/"
