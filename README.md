@@ -9,6 +9,7 @@
 Install ➣ /Library/Preferences/com.apple.security.libraryvalidation.plist
 - NOTE: Make sure for this version that the SIP is totally disable
 
+#### Warning: this package replaces system files in /S/L/E and could render your system unbootable.
 
 #### Follow Video ⬇︎ How to Create Package
 
