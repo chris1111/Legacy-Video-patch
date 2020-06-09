@@ -4,10 +4,7 @@
 # Legacy Video patch
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/backgr12.png)
 
-### Latest Update 28 March 2020
-- For macOS Catalina 10.15.4+
-Install ➣ /Library/Preferences/com.apple.security.libraryvalidation.plist
-- NOTE: Make sure for this version that the SIP is totally disable
+### Latest release Update 09 June 2020 Small fix on SkyLight
 
 #### Warning: this package replaces system files in /S/L/E and could render your system unbootable.
 
