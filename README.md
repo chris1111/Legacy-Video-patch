@@ -6,7 +6,9 @@
 
 ### Latest release Update 09 June 2020 Small fix on SkyLight
 
-#### Warning: this package replaces system files in /S/L/E and could render your system unbootable.
+#### Warnings: 
+##### 1 :this package replaces system files in /S/L/E and could render your system unbootable.
+##### 2 :donot use this package with 10.15.6 or greater, causing kernal panic right now.
 
 #### Follow Video ⬇︎ How to Create Package
 
