@@ -8,7 +8,7 @@
 
 #### Warnings: 
 ##### 1 :this package replaces system files in /S/L/E and could render your system unbootable.
-##### 2 :donot use this package with 10.15.6 or greater, causing kernal panic right now.
+##### 2 :this package can cause kernel panic for 10.15.6 /10.15.7 on some hardware.
 
 #### Follow Video ⬇︎ How to Create Package
 
