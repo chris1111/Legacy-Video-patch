@@ -35,6 +35,7 @@ cp -R /"$3"/tmp/InstallKext/AppleIntelHD3000GraphicsGLDriver.bundle "${3}/System
 cp -R /"$3"/tmp/InstallKext/AppleIntelHD3000GraphicsVADriver.bundle "${3}/System/Library/Extensions/"
 cp -R /"$3"/tmp/InstallKext/AppleIntelSNBGraphicsFB.kext "${3}/System/Library/Extensions/"
 cp -R /"$3"/tmp/InstallKext/AppleIntelSNBVA.bundle "${3}/System/Library/Extensions/"
+cp -R /"$3"/tmp/InstallKext/AppleGraphicsControl.kext "${3}/System/Library/Extensions/"cp -R /"$3"/tmp/InstallKext/AppleGraphicsPowerManagement.kext "${3}/System/Library/Extensions/"cp -R /"$3"/tmp/InstallKext/AppleMCCSControl.kext "${3}/System/Library/Extensions/"cp -R /"$3"/tmp/InstallKext/IOGraphicsFamily.kext "${3}/System/Library/Extensions/"cp -R /"$3"/tmp/InstallKext/IONDRVSupport.kext "${3}/System/Library/Extensions/"
 
 
 
@@ -47,7 +48,7 @@ cp -R /"$3"/tmp/SkyLightframework/SkyLight.framework "${3}/System/Library/Privat
 
 touch "${3}/System/Library/Extensions/"
 
-kextcache -u /
+kextcache -i /
 
 
 rm -rf /"$3"/tmp/InstallKext

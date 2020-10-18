@@ -19,6 +19,7 @@ NDRVShim.kext
 NVDANV50HalTesla.kext
 NVDAResmanTesla.kext
 IOSurface.kext
+AppleGraphicsControl.kextAppleGraphicsPowerManagement.kextAppleMCCSControl.kextIOGraphicsFamily.kextIONDRVSupport.kext
 
 Install /System/Library/PrivateFrameworks/GPUSupport.framework
 Install /System/Library/PrivateFrameworks/SkyLight.framework
