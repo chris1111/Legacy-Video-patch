@@ -45,8 +45,8 @@ For macOS Catalina 10.15  Beta and Release
 
 
 ### Thanks to arqueox to report succes with a real Mac Book in macOS Catalina 10.15 beta (2)
-Clic to the image to view the post ⬇︎
-[![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/img_2011.jpg)](https://forums.macrumors.com/threads/macos-10-15-catalina-on-unsupported-macs.2183772/page-68#post-27476556)
+- Real Mac Book in macOS Catalina 10.15 beta (2) ➤ [arqueox report succes](https://forums.macrumors.com/threads/macos-10-15-catalina-on-unsupported-macs.2183772/page-68#post-27476556)
+
 
 
 
