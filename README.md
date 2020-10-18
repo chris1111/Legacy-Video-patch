@@ -37,7 +37,7 @@ For macOS Catalina 10.15  Beta and Release
 - Packager: chris1111
 
 ### My result for a GeForce 210 in macOS Catalina 10.15.6 / 10.15.7 
-- My result ➤ [Catalina 10.15.6](ttps://user-images.githubusercontent.com/6248794/96387238-904d6c80-116e-11eb-8710-d0935f783074.png)
+- My result ➤ [Catalina 10.15.6](https://user-images.githubusercontent.com/6248794/96387238-904d6c80-116e-11eb-8710-d0935f783074.png)
 - My result  ➤ [Catalina 10.15.7](https://user-images.githubusercontent.com/6248794/96387239-97747a80-116e-11eb-9b96-0aca67da4ff2.png)
 
 ### My result for Intel HD 3000 in macOS Catalina 10.15.7 
