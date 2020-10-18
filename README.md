@@ -40,8 +40,8 @@ For macOS Catalina 10.15  Beta and Release
 ![Screen Shot 2](https://user-images.githubusercontent.com/6248794/96387238-904d6c80-116e-11eb-8710-d0935f783074.png)
 ![Screen Shot 10 15 7](https://user-images.githubusercontent.com/6248794/96387239-97747a80-116e-11eb-9b96-0aca67da4ff2.png)
 
-### My result for Intel HD 3000 in macOS Catalina 10.15 beta (7)
-- ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/legacy11.jpg)
+### My result for Intel HD 3000 in macOS Catalina 10.15.7 
+- ![Screen Shot 10 15 7 HD 3000](https://user-images.githubusercontent.com/6248794/96388452-de666e00-1176-11eb-913a-578bef22c7fa.png)
 
 ### Thanks to arqueox to report succes with a real Mac Book in macOS Catalina 10.15 beta (2)
 Clic to the image to view the post ⬇︎
