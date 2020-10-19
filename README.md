@@ -45,6 +45,10 @@ For macOS Catalina 10.15  Beta and Release
 ### My result for Intel HD 3000 in macOS Catalina 10.15.7 
 - My result  ➤ [Catalina 10.15.7 Intel HD 3000](https://user-images.githubusercontent.com/6248794/96388452-de666e00-1176-11eb-913a-578bef22c7fa.png)
 
+### Watch Video test GeForce 210 macOS Catalina 10.15.7
+[![Modular Image Creation](https://user-images.githubusercontent.com/6248794/96463022-44dda180-11f4-11eb-9696-3f9519c46823.jpg)](https://youtu.be/4UGjlWMcCfs)
+
+
 
 ### Thanks to arqueox to report succes with a real Mac Book in macOS Catalina 10.15 beta (2)
 - Real Mac Book in macOS Catalina 10.15 beta (2) ➤ [arqueox report succes](https://forums.macrumors.com/threads/macos-10-15-catalina-on-unsupported-macs.2183772/page-68#post-27476556)
