@@ -4,11 +4,12 @@
 # Legacy Video patch
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/backgr12.png)
 
-### Latest release Update 09 June 2020 Small fix on SkyLight
+### Latest release Update 18 Oct 2020 Fix issue on some hardware 10.15.6 and 10.15.7
+
 
 #### Warnings: 
 ##### 1 :this package replaces system files in /S/L/E and could render your system unbootable.
-##### 2 :this package can cause kernel panic for 10.15.6 /10.15.7 on some hardware.
+##### 2 :For any version of Catalina you must repair the kextcache in recovery HD if there is a boot problem!
 
 #### Follow Video ⬇︎ How to Create Package
 
