@@ -4,7 +4,7 @@
 # Legacy Video patch
 ![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/backgr12.png)
 
-### Latest release Update 18 Oct 2020 Fix issue on some hardware 10.15.6 and 10.15.7
+### Latest release Update 27 Oct 2020 Fix DisableLibraryValidation 10.15.7
 
 
 #### Warnings: 
