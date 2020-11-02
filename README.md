@@ -45,6 +45,9 @@ For macOS Catalina 10.15  Beta and Release
 ### My result for Intel HD 3000 in macOS Catalina 10.15.7 
 - My result  ➤ [Catalina 10.15.7 Intel HD 3000](https://user-images.githubusercontent.com/6248794/96388452-de666e00-1176-11eb-913a-578bef22c7fa.png)
 
+ ### [Screenz](https://www.hackintosh-montreal.com/u31)result Intel HD 3000 in macOS Catalina 10.15.7 ➤ [Catalina 10.15.7 Intel HD 3000 Laptop HP Probook 4530s](https://i87.servimg.com/u/f87/17/99/48/98/captur16.jpg)
+
+
 ### Watch Video test GeForce 210 macOS Catalina 10.15.7
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/96463022-44dda180-11f4-11eb-9696-3f9519c46823.jpg)](https://youtu.be/4UGjlWMcCfs)
 
