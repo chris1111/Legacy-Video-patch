@@ -2,9 +2,9 @@
 ### Fix Old Graphics card in macOS Catalina 10.15.7
 
 ![LVP](https://user-images.githubusercontent.com/6248794/100799527-37225b00-33f3-11eb-8623-58ffcf844761.png)
-## Start
+## Readme for Starting
 ![Capture 1](https://user-images.githubusercontent.com/6248794/101005612-e6178180-352e-11eb-839f-1f235479551b.png)
-## End
+## At the end your sytem will Restart
 ![Capture 2](https://user-images.githubusercontent.com/6248794/101005619-e6178180-352e-11eb-8fc4-3975e701f945.png)
 
 ### Latest Update 02 Dec 2020 Legacy Video patch is now an Applications
