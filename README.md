@@ -32,7 +32,8 @@
 - Fix/Patch: [dosdude1](https://forums.macrumors.com/members/dosdude1.669685/), [AsentientBot](https://forums.macrumors.com/members/asentientbot.1135186/)
 - Tester: chris1111, C.Frio, arqueox, Screenz
 - Packager: chris1111
-### My result for with a Radeon HD 6670 in macOS Catalina 10.15.7 - My result ➤ [Catalina 10.15.7](https://user-images.githubusercontent.com/6248794/100957292-2d2e5400-34e8-11eb-9c11-540086f8c2e2.png) 
+### My result for with a Sapphire Radeon HD 6670 in macOS Catalina 10.15.7 
+- My result ➤ [Catalina 10.15.7](https://user-images.githubusercontent.com/6248794/100957292-2d2e5400-34e8-11eb-9c11-540086f8c2e2.png) 
 
 ### My result for Intel HD 3000 in macOS Catalina 10.15.7 
 - My result  ➤ [Catalina 10.15.7 Intel HD 3000](https://user-images.githubusercontent.com/6248794/96388452-de666e00-1176-11eb-913a-578bef22c7fa.png)
