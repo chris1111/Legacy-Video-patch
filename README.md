@@ -8,11 +8,11 @@
 #### Follow Video ⬇ How to Create the App 
 [![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/video12.png)](https://youtu.be/MjAV6EpCTSw)
 
-Fix Old Graphics card in macOS Catalina 10.15++
-Support Graphics Intel HD 3000.
-Support: GeForce 5xx, 4xx, 2xx, 8600M(GT)/8800M(GT),
-9400M/9600M(GT), 320M/330M
-Support AMD/ATI Radeon HD 5xxx and 6xxx series
+### Fix Old Graphics card in macOS Catalina 10.15++
+- Support Graphics Intel HD 3000.
+- Support: GeForce 5xx, 4xx, 2xx, 8600M(GT)/8800M(GT), 9400M/9600M(GT), 320M/330M
+- Support AMD/ATI Radeon HD 5xxx and 6xxx series
+
 #### Credit:
 - Fix/Patch: [dosdude1](https://forums.macrumors.com/members/dosdude1.669685/), [AsentientBot](https://forums.macrumors.com/members/asentientbot.1135186/)
 - Tester: chris1111, C.Frio, arqueox
