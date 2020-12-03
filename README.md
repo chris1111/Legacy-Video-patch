@@ -1,7 +1,9 @@
 # Legacy Video patch
 ![LVP](https://user-images.githubusercontent.com/6248794/100799527-37225b00-33f3-11eb-8623-58ffcf844761.png)
 ### Latest Update 02 Dec 2020 Legacy Video patch is now an Applications
-- New Video how to
+- New Support AMD/ATI Radeon HD 5xxx and 6xxx series 
+- New Video how to 
+
 #### Warnings:
 ##### 1 :this package replaces system files in /S/L/E and could render your system unbootable.
 
