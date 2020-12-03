@@ -40,6 +40,11 @@
 
  ### [Screenz](https://www.hackintosh-montreal.com/u31) result Intel HD 3000 in macOS Catalina 10.15.7 
  ➤ [Catalina 10.15.7 Intel HD 3000 Laptop HP Probook 4530s](https://i87.servimg.com/u/f87/17/99/48/98/captur16.jpg)
+ 
+### More test Graphics Sapphire Radeon HD 6570, Sapphire ATI Radeon HD 5570, Visiontek ATI HD 5450
+➤ [Radeon HD 6570](https://user-images.githubusercontent.com/6248794/101048698-d741c680-3550-11eb-8467-23d0a58b6af1.png)
+➤ [ATI Radeon HD 5570](https://user-images.githubusercontent.com/6248794/101048699-d7da5d00-3550-11eb-9f32-f1f27244279d.png)
+➤ [ATI HD 5450](https://user-images.githubusercontent.com/6248794/101048691-d6a93000-3550-11eb-9bc6-a43a375e6fbc.png)
 
 
 ### Watch Video test GeForce 210 macOS Catalina 10.15.7
