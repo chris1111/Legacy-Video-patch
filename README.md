@@ -9,9 +9,9 @@
 #### Warnings:
 ##### 1 :this package replaces system files in /S/L/E and could render your system unbootable.
 
-#### Follow Video ⬇ How to Create the App + Install Legacy Video Patch
+#### Follow Video ⬇ How to Create the App
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/100969381-06c8e280-3501-11eb-9e11-ad9d734eff3a.png)](https://youtu.be/h18ie8uTulM)
-#### Follow Video ⬇ + Install Legacy Video Patch
+#### Follow Video ⬇ Install Legacy Video Patch
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/100969381-06c8e280-3501-11eb-9e11-ad9d734eff3a.png)](https://youtu.be/pP-j-RxOths)
 
 ### Fix Old Graphics card in macOS Catalina 10.15++
