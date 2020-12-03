@@ -4,8 +4,7 @@
 - New Video how to
 #### Warnings:
 ##### 1 :this package replaces system files in /S/L/E and could render your system unbootable.
-##### 2 :For any version of Catalina you must repair the kextcache in recovery HD if there is a boot problem!
-- kextcache -i /Volumes/YOUR VOLUMES NAME
+
 #### Follow Video ⬇ How to Create the App 
 [![Modular Image Creation](https://i25.servimg.com/u/f25/18/50/18/69/video12.png)](https://youtu.be/MjAV6EpCTSw)
 
