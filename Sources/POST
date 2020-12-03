@@ -1,0 +1,59 @@
+!/bin/bash
+#
+# By chris1111
+# Script Legacy Video Patch
+#
+
+PARENTDIR=$(dirname "$0")
+cd "$PARENTDIR"
+
+sudo mount -uw /
+Sleep 2
+
+killall Finder
+
+if [[ $(sw_vers -productVersion) == "10.15.4" ]]; then
+    echo "Latest Catalina"
+defaults write /Library/Preferences/com.apple.security.libraryvalidation.plist DisableLibraryValidation -bool true
+echo "Install plist"
+fi
+
+if [[ $(sw_vers -productVersion) == "10.15.5" ]]; then
+    echo "Latest Catalina"
+defaults write /Library/Preferences/com.apple.security.libraryvalidation.plist DisableLibraryValidation -bool true
+echo "Install plist"
+fi
+
+if [[ $(sw_vers -productVersion) == "10.15.6" ]]; then
+    echo "Latest Catalina"
+defaults write /Library/Preferences/com.apple.security.libraryvalidation.plist DisableLibraryValidation -bool true
+echo "Install plist"
+fi
+
+if [[ $(sw_vers -productVersion) == "10.15.7" ]]; then
+    echo "Latest Catalina"
+defaults write /Library/Preferences/com.apple.security.libraryvalidation.plist DisableLibraryValidation -bool true
+echo "Install plist"
+fi
+
+sudo chown -R root:wheel /Library/Preferences/com.apple.security.libraryvalidation.plist
+sleep 1
+sudo chmod -R 555 /Library/Preferences/com.apple.security.libraryvalidation.plist
+
+Sleep 2
+
+# Install files
+sudo cp -R ./InstallKext/*.kext "${3}/System/Library/Extensions/"
+sudo cp -R ./InstallKext/*.bundle "${3}/System/Library/Extensions/"
+sudo cp -R ./InstallKext/*.plugin "${3}/System/Library/Extensions/"
+sudo cp -R ./GPUOpenGLFramework/OpenGL.framework "${3}/System/Library/Frameworks/"
+sudo cp -R ./GPUOpenGLFramework/GPUSupport.framework "${3}/System/Library/PrivateFrameworks/"
+sudo cp -R ./CoreDisplayFramework/CoreDisplay.framework "${3}/System/Library/Frameworks/"
+sudo cp -R ./SkyLightframework/SkyLight.framework "${3}/System/Library/PrivateFrameworks/"
+Sleep 2
+# Fix Authorization
+sudo touch "${3}/System/Library/Extensions/"
+sudo chown -R root:wheel "${3}/System/Library/Extensions/" 
+sudo chmod -R 755 "${3}/System/Library/Extensions/"
+sudo kextcache -i /
+

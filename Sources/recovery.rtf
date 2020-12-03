@@ -1,0 +1,348 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2576
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Verdana;\f1\fnil\fcharset0 Verdana-Bold;\f2\fnil\fcharset0 Verdana-Italic;
+}
+{\colortbl;\red255\green255\blue255;\red76\green78\blue78;\red0\green0\blue0;\red108\green5\blue211;
+\red0\green0\blue255;\red64\green128\blue0;\red0\green22\blue176;\red68\green21\blue176;}
+{\*\expandedcolortbl;;\csgenericrgb\c29999\c30457\c30457;\csgenericrgb\c0\c0\c0;\csgenericrgb\c42337\c1841\c82833;
+\csgenericrgb\c0\c0\c100000;\csgenericrgb\c25000\c50001\c0;\csgenericrgb\c0\c8656\c68986;\csgenericrgb\c26552\c8264\c69162;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li785\fi-786\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf2 \CocoaLigature0 # Version "1.1" Legacy Video Patch Copyright (c) 2020,chris1111 All right reserved\cf3 \
+
+\f1\b use
+\f0\b0  \cf4 AppleScript\cf3  \cf5 version\cf3  "2.4" \cf2 -- Yosemite (10.10) or later\cf3 \
+
+\f1\b use
+\f0\b0  
+\f2\i \cf5 scripting additions
+\f0\i0 \cf3 \
+\cf2 --	Properties configuting the droplet shell\cf3 \
+
+\f1\b property
+\f0\b0  \cf6 appletDropImage\cf3  : "DocumentIcon"\
+
+\f1\b property
+\f0\b0  \cf6 appletDropName\cf3  : "Drop the volume HERE"\
+
+\f1\b property
+\f0\b0  \cf6 appletSearchName\cf3  : "Legacy Video Patch"\
+
+\f1\b property
+\f0\b0  \cf6 appletSearchImage\cf3  : "Badge"\
+\
+
+\f1\b on
+\f0\b0  
+\f1\b \cf5 open
+\f0\b0 \cf3  \cf6 dropped_files\cf3 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li1571\fi-1572\pardirnatural\partightenfactor0
+\cf3 	
+\f1\b \cf7 display dialog
+\f0\b0 \cf3  "\
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li785\fi-786\pardirnatural\partightenfactor0
+\cf3 Installer Legacy Video Patch\
+" \cf7 with icon\cf3  
+\f2\i \cf8 note
+\f0\i0 \cf3  \cf7 buttons\cf3  \{"Quit", "Proceed"\} \cf7 default button\cf3  \{"Proceed"\}\
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li1571\fi-1572\pardirnatural\partightenfactor0
+\cf3 	
+\f1\b if
+\f0\b0  
+\f1\b the
+\f0\b0  \cf8 button returned\cf3  
+\f1\b of
+\f0\b0  
+\f1\b the
+\f0\b0  \cf4 result\cf3  
+\f1\b is
+\f0\b0  "Proceed" 
+\f1\b then
+\f0\b0 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li2356\fi-2357\pardirnatural\partightenfactor0
+\cf3 		\
+		
+\f1\b \cf7 do shell script
+\f0\b0 \cf3  "afplay '/System/Library/Components/CoreAudio.component/Contents/SharedSupport/SystemSounds/System/payment_success.aif' &> /dev/null &" 
+\f1\b with
+\f0\b0  \cf7 administrator privileges\cf3 \
+		\cf2 ## Set use_terminal to true to run the script in a terminal\cf3 \
+		
+\f1\b set
+\f0\b0  \cf6 use_terminal\cf3  
+\f1\b to
+\f0\b0  
+\f2\i \cf4 true
+\f0\i0 \cf3 \
+		\cf2 ## Set exit_terminal to true to leave the terminal session open after script runs\cf3 \
+		
+\f1\b set
+\f0\b0  \cf6 exit_terminal\cf3  
+\f1\b to
+\f0\b0  
+\f2\i \cf4 true
+\f0\i0 \cf3 \
+		\cf2 ## Set log_file to a file path to have the output captured\cf3 \
+		
+\f1\b set
+\f0\b0  \cf6 file_list\cf3  
+\f1\b to
+\f0\b0  ""\
+		
+\f1\b set
+\f0\b0  \cf6 the_command\cf3  
+\f1\b to
+\f0\b0  \cf4 quoted form\cf3  
+\f1\b of
+\f0\b0  \cf4 POSIX path\cf3  
+\f1\b of
+\f0\b0  (
+\f1\b \cf7 path to resource
+\f0\b0 \cf3  "POST" \cf7 in directory\cf3  "Scripts")\
+		
+\f1\b repeat
+\f0\b0  
+\f1\b with
+\f0\b0  \cf6 file_path\cf3  
+\f1\b in
+\f0\b0  \cf6 dropped_files\cf3 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li3142\fi-3143\pardirnatural\partightenfactor0
+\cf3 			
+\f1\b set
+\f0\b0  \cf6 file_list\cf3  
+\f1\b to
+\f0\b0  \cf6 file_list\cf3  & " " & \cf4 quoted form\cf3  
+\f1\b of
+\f0\b0  \cf4 POSIX path\cf3  
+\f1\b of
+\f0\b0  \cf6 file_path\cf3 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li2356\fi-2357\pardirnatural\partightenfactor0
+\cf3 		
+\f1\b end
+\f0\b0  
+\f1\b repeat
+\f0\b0 \
+		
+\f1\b set
+\f0\b0  \cf6 the_command\cf3  
+\f1\b to
+\f0\b0  \cf6 the_command\cf3  & " " & \cf6 file_list\cf3 \
+		
+\f1\b try
+\f0\b0 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li3142\fi-3143\pardirnatural\partightenfactor0
+\cf3 			
+\f1\b if
+\f0\b0  \cf6 log_file\cf3  
+\f1\b is
+\f0\b0  
+\f1\b not
+\f0\b0  
+\f2\i \cf5 missing value
+\f0\i0 \cf3  
+\f1\b then
+\f0\b0 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li3928\fi-3929\pardirnatural\partightenfactor0
+\cf3 				
+\f1\b set
+\f0\b0  \cf6 the_command\cf3  
+\f1\b to
+\f0\b0  \cf6 the_command\cf3  & " | tee -a " & \cf6 log_file\cf3 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li3142\fi-3143\pardirnatural\partightenfactor0
+\cf3 			
+\f1\b end
+\f0\b0  
+\f1\b if
+\f0\b0 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li2356\fi-2357\pardirnatural\partightenfactor0
+\cf3 		
+\f1\b end
+\f0\b0  
+\f1\b try
+\f0\b0 \
+		
+\f1\b try
+\f0\b0 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li3142\fi-3143\pardirnatural\partightenfactor0
+\cf3 			
+\f1\b set
+\f0\b0  \cf6 use_terminal\cf3  
+\f1\b to
+\f0\b0  
+\f2\i \cf4 false
+\f0\i0 \cf3 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li2356\fi-2357\pardirnatural\partightenfactor0
+\cf3 		
+\f1\b end
+\f0\b0  
+\f1\b try
+\f0\b0 \
+		
+\f1\b if
+\f0\b0  
+\f1\b not
+\f0\b0  \cf6 use_terminal\cf3  
+\f1\b then
+\f0\b0 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li3142\fi-3143\pardirnatural\partightenfactor0
+\cf3 			
+\f1\b set
+\f0\b0  \cf4 progress description\cf3  
+\f1\b to
+\f0\b0  "Legacy Video Patch"\
+			
+\f1\b \cf5 delay
+\f0\b0 \cf3  2\
+			
+\f1\b set
+\f0\b0  \cf4 progress total steps\cf3  
+\f1\b to
+\f0\b0  6\
+			
+\f1\b set
+\f0\b0  \cf4 progress additional description\cf3  
+\f1\b to
+\f0\b0  "Proceed Legacy Video Patch"\
+			
+\f1\b \cf5 delay
+\f0\b0 \cf3  0.2\
+			
+\f1\b set
+\f0\b0  \cf4 progress completed steps\cf3  
+\f1\b to
+\f0\b0  1\
+			
+\f1\b set
+\f0\b0  \cf4 progress additional description\cf3  
+\f1\b to
+\f0\b0  "Installing Legacy Video Patch"\
+			
+\f1\b \cf5 delay
+\f0\b0 \cf3  0.2\
+			
+\f1\b set
+\f0\b0  \cf4 progress completed steps\cf3  
+\f1\b to
+\f0\b0  2\
+			
+\f1\b set
+\f0\b0  \cf4 progress additional description\cf3  
+\f1\b to
+\f0\b0  "Installing Legacy Video Patch Wait . . ."\
+			
+\f1\b \cf5 delay
+\f0\b0 \cf3  0.2\
+			
+\f1\b \cf7 do shell script
+\f0\b0 \cf3  \cf6 the_command\cf3  
+\f1\b with
+\f0\b0  \cf7 administrator privileges\cf3 \
+			
+\f1\b set
+\f0\b0  \cf4 progress completed steps\cf3  
+\f1\b to
+\f0\b0  3\
+			
+\f1\b set
+\f0\b0  \cf4 progress additional description\cf3  
+\f1\b to
+\f0\b0  "Fix Permission"\
+			
+\f1\b \cf5 delay
+\f0\b0 \cf3  5\
+			
+\f1\b set
+\f0\b0  \cf4 progress completed steps\cf3  
+\f1\b to
+\f0\b0  4\
+			
+\f1\b set
+\f0\b0  \cf4 progress additional description\cf3  
+\f1\b to
+\f0\b0  "kextcache Repairing"\
+			
+\f1\b \cf5 delay
+\f0\b0 \cf3  10\
+			
+\f1\b set
+\f0\b0  \cf4 progress completed steps\cf3  
+\f1\b to
+\f0\b0  5\
+			
+\f1\b set
+\f0\b0  \cf4 progress additional description\cf3  
+\f1\b to
+\f0\b0  "Done"\
+			
+\f1\b \cf5 delay
+\f0\b0 \cf3  3\
+			
+\f1\b set
+\f0\b0  \cf4 progress completed steps\cf3  
+\f1\b to
+\f0\b0  6\
+			
+\f1\b \cf7 do shell script
+\f0\b0 \cf3  "afplay '/System/Library/Components/CoreAudio.component/Contents/SharedSupport/SystemSounds/System/Volume Unmount.aif' &> /dev/null &"\
+			
+\f1\b set
+\f0\b0  \cf4 progress additional description\cf3  
+\f1\b to
+\f0\b0  "Installing Legacy Video Patch Done"\
+			
+\f1\b \cf5 delay
+\f0\b0 \cf3  0.2\
+			
+\f1\b \cf7 display alert
+\f0\b0 \cf3  "Installing Legacy Video Patch /Volume" \cf7 message\cf3  (\cf6 dropped_files\cf3  
+\f1\b as
+\f0\b0  
+\f2\i \cf5 text
+\f0\i0 \cf3 ) \cf7 buttons\cf3  "Done" \cf7 default button\cf3  "Done" \cf7 giving up after\cf3  5\
+			
+\f1\b \cf5 delay
+\f0\b0 \cf3  0.5\
+			
+\f1\b \cf7 display alert
+\f0\b0 \cf3  "Your system will restart now!" \cf7 message\cf3  (\cf6 dropped_files\cf3  
+\f1\b as
+\f0\b0  
+\f2\i \cf5 text
+\f0\i0 \cf3 ) \cf7 buttons\cf3  "Restart" \cf7 default button\cf3  "Restart" \cf7 giving up after\cf3  3\
+			
+\f1\b \cf5 delay
+\f0\b0 \cf3  0.5\
+			
+\f1\b tell
+\f0\b0  
+\f2\i \cf5 application
+\f0\i0 \cf3  "Finder"\
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li3928\fi-3929\pardirnatural\partightenfactor0
+\cf3 				
+\f1\b \cf5 restart
+\f0\b0 \cf3 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li3142\fi-3143\pardirnatural\partightenfactor0
+\cf3 			
+\f1\b end
+\f0\b0  
+\f1\b tell
+\f0\b0 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li2356\fi-2357\pardirnatural\partightenfactor0
+\cf3 		
+\f1\b end
+\f0\b0  
+\f1\b if
+\f0\b0 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li1571\fi-1572\pardirnatural\partightenfactor0
+\cf3 	
+\f1\b end
+\f0\b0  
+\f1\b if
+\f0\b0 \
+\pard\tx577\tx1155\tx1733\tx2311\tx2889\tx3467\tx4045\tx4623\tx5201\tx5779\tx6357\tx6935\tx7513\tx8091\tx8669\tx9247\tx9825\tx10403\tx10981\tx11559\tx12137\tx12715\tx13293\tx13871\tx14449\tx15027\tx15605\tx16183\tx16761\tx17339\tx17917\tx18495\tx19072\tx19650\tx20228\tx20806\tx21384\tx21962\tx22540\tx23118\tx23696\tx24274\tx24852\tx25430\tx26008\tx26586\tx27164\tx27742\tx28320\tx28898\tx29476\tx30054\tx30632\tx31210\tx31788\tx32366\tx32944\tx33522\tx34100\tx34678\tx35256\tx35834\tx36412\tx36990\tx37567\tx38145\tx38723\tx39301\tx39879\tx40457\tx41035\tx41613\tx42191\tx42769\tx43347\tx43925\tx44503\tx45081\tx45659\tx46237\tx46815\tx47393\tx47971\tx48549\tx49127\tx49705\tx50283\tx50861\tx51439\tx52017\tx52595\tx53173\tx53751\tx54329\tx54907\tx55485\tx56062\tx56640\tx57218\tx57796\li785\fi-786\pardirnatural\partightenfactor0
+
+\f1\b \cf3 end
+\f0\b0  
+\f1\b \cf5 open
+\f0\b0 \cf3 \
+}
