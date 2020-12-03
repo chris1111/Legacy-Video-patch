@@ -1,4 +1,6 @@
 # Legacy Video patch
+### Fix Old Graphics card in macOS Catalina 10.15.7
+
 ![LVP](https://user-images.githubusercontent.com/6248794/100799527-37225b00-33f3-11eb-8623-58ffcf844761.png)
 ### Latest Update 02 Dec 2020 Legacy Video patch is now an Applications
 - New Support AMD/ATI Radeon HD 5xxx and 6xxx series 
