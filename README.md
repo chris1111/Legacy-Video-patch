@@ -1,4 +1,4 @@
-# Legacy Video patch
+# Legacy Video patch: Project for Hackintosh
 
 ### Fix Old Graphics card in macOS Catalina 10.15++
 - Support Graphics Intel HD 3000.
