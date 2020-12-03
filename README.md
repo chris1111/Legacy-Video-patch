@@ -39,4 +39,4 @@
 
 
 ### Watch Video test GeForce 210 macOS Catalina 10.15.7
-➤ [Modular Image Creation](https://youtu.be/4UGjlWMcCfs)
+➤ [Video test GeForce 210 macOS Catalina 10.15.7](https://youtu.be/4UGjlWMcCfs)
