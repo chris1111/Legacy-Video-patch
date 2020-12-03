@@ -1,5 +1,10 @@
 # Legacy Video patch
-### Fix Old Graphics card in macOS Catalina 10.15.7
+
+### Fix Old Graphics card in macOS Catalina 10.15++
+- Support Graphics Intel HD 3000.
+- Support: GeForce 5xx, 4xx, 2xx, 8600M(GT)/8800M(GT), 9400M/9600M(GT), 320M/330M
+- Support AMD/ATI Radeon HD 5xxx and 6xxx series
+
 
 ![LVP](https://user-images.githubusercontent.com/6248794/100799527-37225b00-33f3-11eb-8623-58ffcf844761.png)
 ## Readme for Starting
@@ -19,10 +24,6 @@
 #### Follow Video ⬇ Install Legacy Video Patch
 [![Modular Image Creation](https://user-images.githubusercontent.com/6248794/100969381-06c8e280-3501-11eb-9e11-ad9d734eff3a.png)](https://youtu.be/pP-j-RxOths)
 
-### Fix Old Graphics card in macOS Catalina 10.15++
-- Support Graphics Intel HD 3000.
-- Support: GeForce 5xx, 4xx, 2xx, 8600M(GT)/8800M(GT), 9400M/9600M(GT), 320M/330M
-- Support AMD/ATI Radeon HD 5xxx and 6xxx series
 
 #### Credit:
 - Fix/Patch: [dosdude1](https://forums.macrumors.com/members/dosdude1.669685/), [AsentientBot](https://forums.macrumors.com/members/asentientbot.1135186/)
