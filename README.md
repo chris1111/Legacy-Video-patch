@@ -4,7 +4,7 @@
 - Support Graphics Intel HD 3000.
 - Support: GeForce 5xx, 4xx, 2xx, 8600M(GT)/8800M(GT), 9400M/9600M(GT), 320M/330M
 - Support AMD/ATI Radeon HD 5xxx and 6xxx series
-##### NOTE: the only negative thing I can say about ADM/ATI cards is that by recording a video screen the system becomes slow and difficult to use but still usable.
+##### NOTE: the only negative thing I can say about ADM/ATI cards is that by recording a video screen the system becomes slow and difficult to use but still usable. With the GeForce and the HD 3000 I do not have this kind of problem and for my part I think that the HD 3000 is the most fluid and fast of the three video cards
 
 
 ![LVP](https://user-images.githubusercontent.com/6248794/100799527-37225b00-33f3-11eb-8623-58ffcf844761.png)
