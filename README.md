@@ -6,6 +6,8 @@
 - Support AMD/ATI Radeon HD 5xxx and 6xxx series
 ##### NOTE: the only negative thing I can say about AMD/ATI cards is that by recording a video screen the system becomes slow and difficult to use but still usable. With the GeForce and the HD 3000 I do not have this kind of problem and for my part I think that the HD 3000 is the most fluid and fast of the three video cards
 
+##### In conclusion after having had time to do some tests I conclude that AMD/ATI cards work at almost 60% of their full capacity so the full QE/CI is not applied with this patch. Intel HD 3000 and Old GeForce works great
+
 
 ![LVP](https://user-images.githubusercontent.com/6248794/100799527-37225b00-33f3-11eb-8623-58ffcf844761.png)
 
