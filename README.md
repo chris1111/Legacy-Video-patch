@@ -1,5 +1,8 @@
 # Legacy Video patch: Project for Hackintosh
 
+- For real Mac I recommand to using the dosdude1 Catalina patcher ➤ [the dosdude1 patcher](https://forums.macrumors.com/threads/macos-10-15-catalina-on-unsupported-macs.2183772/)
+
+
 ### Fix Old Graphics card in macOS Catalina 10.15++
 - Support Graphics Intel HD 3000.
 - Support: GeForce 5xx, 4xx, 2xx, 8600M(GT)/8800M(GT), 9400M/9600M(GT), 320M/330M
@@ -35,6 +38,8 @@
 - Fix/Patch: [dosdude1](https://forums.macrumors.com/members/dosdude1.669685/), [AsentientBot](https://forums.macrumors.com/members/asentientbot.1135186/)
 - Tester: chris1111, C.Frio, arqueox, Screenz
 - Packager: chris1111
+- [Clover Team](https://github.com/CloverHackyColor/CloverBootloader)
+
 ### My result for with a Sapphire Radeon HD 6670 in macOS Catalina 10.15.7 
 - My result ➤ [Catalina 10.15.7](https://user-images.githubusercontent.com/6248794/100957292-2d2e5400-34e8-11eb-9c11-540086f8c2e2.png) 
 
