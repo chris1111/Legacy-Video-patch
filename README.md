@@ -1,6 +1,8 @@
 # Legacy Video patch: Project for Hackintosh
 
 - For real Mac I recommand to using the dosdude1 Catalina patcher ➤ [the dosdude1 patcher](https://forums.macrumors.com/threads/macos-10-15-catalina-on-unsupported-macs.2183772/)
+- Why it's important to keep the two separate because the dosdude1 patcher installs kext and files specifically for Mac's customers
+Hackintos only need Graphics kexts and the Clover bootloader does the rest of the work.
 
 
 ### Fix Old Graphics card in macOS Catalina 10.15++
