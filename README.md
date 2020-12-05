@@ -51,6 +51,8 @@ Hackintos only need Graphics kexts and the Clover bootloader does the rest of th
  ### [Screenz](https://www.hackintosh-montreal.com/u31) result Intel HD 3000 in macOS Catalina 10.15.7 
  ➤ [Catalina 10.15.7 Intel HD 3000 Laptop HP Probook 4530s](https://i87.servimg.com/u/f87/17/99/48/98/captur16.jpg)
  
+ ### LegoLivesMatter' result with MSI Radeon HD 5550 in macOS Catalina 10.15.7 (FakeID used)
+ ➤ [Catalina 10.15.7 MSI Radeon HD 5550](https://i.postimg.cc/yd0z1Gdb/Screenshot-2020-12-05-at-09-09-54.png)
 #### More test Graphics: Sapphire Radeon HD 6570, Sapphire ATI Radeon HD 5570, Visiontek ATI HD 5450
 ➤ [Sapphire Radeon HD 6570](https://user-images.githubusercontent.com/6248794/101048698-d741c680-3550-11eb-8467-23d0a58b6af1.png)
 
