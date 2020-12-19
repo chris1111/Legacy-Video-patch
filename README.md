@@ -64,6 +64,11 @@ Hackintos only need Graphics kexts and the Clover bootloader does the rest of th
 ### Watch Video test GeForce 210 macOS Catalina 10.15.7
 ➤ [Video test GeForce 210 macOS Catalina 10.15.7](https://youtu.be/4UGjlWMcCfs)
 
-➤ [My EFI Legacy Video Patch Clover r5127.zip](https://github.com/chris1111/Legacy-Video-patch/files/5646228/EFI.Legacy.Video.Patch.Clover.r5127.zip)
+➤ [My EFI Legacy Video Patch Clover r5127.zip](https://github.com/chris1111/Legacy-Video-patch/files/5720249/EFI.Legacy.Video.Patch.Clover.r5127.zip)
+
+➤ [For USER PC Hackitosh Intel HD 3000 See this](https://github.com/chris1111/Legacy-Video-patch/discussions/9)
+
+
+
 
 
