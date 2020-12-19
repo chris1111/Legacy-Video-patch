@@ -53,7 +53,11 @@ Hackintos only need Graphics kexts and the Clover bootloader does the rest of th
  
  ### LegoLivesMatter' result with MSI Radeon HD 5550 in macOS Catalina 10.15.7 (FakeID used)
  ➤ [Catalina 10.15.7 MSI Radeon HD 5550](https://i.postimg.cc/yd0z1Gdb/Screenshot-2020-12-05-at-09-09-54.png)
-#### More test Graphics: Sapphire Radeon HD 6570, Sapphire ATI Radeon HD 5570, Visiontek ATI HD 5450
+ 
+  ### Bogdis result with Intel HD 3000 in macOS Catalina 10.15.7 (FakeID used)
+ ➤ [Catalina 10.15.7 Intel HD 3000](https://user-images.githubusercontent.com/48528615/102701594-d69b7680-4258-11eb-8d5b-6914ecd798a8.png)
+
+ #### More test Graphics: Sapphire Radeon HD 6570, Sapphire ATI Radeon HD 5570, Visiontek ATI HD 5450
 ➤ [Sapphire Radeon HD 6570](https://user-images.githubusercontent.com/6248794/101048698-d741c680-3550-11eb-8467-23d0a58b6af1.png)
 
 ➤ [Sapphire ATI Radeon HD 5570](https://user-images.githubusercontent.com/6248794/101048699-d7da5d00-3550-11eb-9f32-f1f27244279d.png)
