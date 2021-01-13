@@ -42,7 +42,13 @@ Hackintos only need Graphics kexts and the Clover bootloader does the rest of th
 - Packager: chris1111
 - [Clover Team](https://github.com/CloverHackyColor/CloverBootloader)
 
-### My result for with a Sapphire Radeon HD 6670 in macOS Catalina 10.15.7 
+### How to Update 10.15.7 (19H15) to ➤ 10.15.7 (19H114)
+- After installing macOS Catalina 10.15.7 (7:15 p.m.), update via the Preferance System Update, complete the updates and then install Legacy Video Patch
+See result ➤ [Catalina 10.15.7 (19H114) GeForce 210](https://user-images.githubusercontent.com/6248794/104489413-9ac8a800-559d-11eb-955d-f648eec73e6f.png)
+
+ ------------------------------------------------------------------------
+
+### My result for with a Sapphire Radeon HD 6670 in macOS Catalina 10.15.7
 - My result ➤ [Catalina 10.15.7](https://user-images.githubusercontent.com/6248794/100957292-2d2e5400-34e8-11eb-9c11-540086f8c2e2.png) 
 
 ### My result for Intel HD 3000 in macOS Catalina 10.15.7 
