@@ -13,6 +13,9 @@ Hackintos only need Graphics kexts and the Clover bootloader does the rest of th
 
 ##### In conclusion after having had time to do some tests I conclude that AMD/ATI cards work at almost 60% of their full capacity so the full QE/CI is not applied with this patch. Intel HD 3000 and Old GeForce works great
 
+### Latest test: 21 May 2021  Catalina 10.15.7(19H1030) 
+- See Video Succces Install ➤ [Video test GeForce 210 Catalina 10.15.7(19H1030)](https://youtu.be/HIIGmZV_-Uc)
+
 
 ![LVP](https://user-images.githubusercontent.com/6248794/100799527-37225b00-33f3-11eb-8623-58ffcf844761.png)
 
