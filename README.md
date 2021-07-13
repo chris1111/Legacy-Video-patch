@@ -13,8 +13,10 @@ Hackintos only need Graphics kexts and the Clover bootloader does the rest of th
 
 ##### In conclusion after having had time to do some tests I conclude that AMD/ATI cards work at almost 60% of their full capacity so the full QE/CI is not applied with this patch. Intel HD 3000 and Old GeForce works great
 
-### Latest test: 21 May 2021  Catalina 10.15.7(19H1030) 
-- See Video Succces Install ➤ [Video test GeForce 210 Catalina 10.15.7(19H1030)](https://youtu.be/HIIGmZV_-Uc)
+### Latest test Update: 12 July 2021  Catalina 10.15.7 (19H1217)
+- See Video Succces Update ➤ [Video update with GeForce 210 Catalina Update 10.15.7(19H1030) to 10.15.7 (19H1217)(https://youtu.be/EeT5DS6BOMo)
+
+- How to Update Catalina 10.15.7 (19H1030) to 10.15.7 (19H1217), simply update macOS then plug the SSD to another mac or Hackintosh, boot to Catalina then reinstall Legacy Video Patch.
 
 
 ![LVP](https://user-images.githubusercontent.com/6248794/100799527-37225b00-33f3-11eb-8623-58ffcf844761.png)
