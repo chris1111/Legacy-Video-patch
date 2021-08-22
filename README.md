@@ -48,7 +48,8 @@ Hackintos only need Graphics kexts and the Clover bootloader does the rest of th
 - [Clover Team](https://github.com/CloverHackyColor/CloverBootloader)
 
 ### How to Update 10.15.7 (19H15) to ➤ 10.15.7 (19H114)
-- After installing macOS Catalina 10.15.7 (19H15) Do not install Legacy Video Patch! Update via the Preferance System Update, complete the updates and then install Legacy Video Patch
+- How to Update Catalina 10.15.7 (19H15) , simply update macOS then plug the SSD to another mac or Hackintosh, boot to Catalina then reinstall Legacy Video Patch.
+
 See result ➤ [Catalina 10.15.7 (19H114) GeForce 210](https://user-images.githubusercontent.com/6248794/104489413-9ac8a800-559d-11eb-955d-f648eec73e6f.png)
 
  ------------------------------------------------------------------------
