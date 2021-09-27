@@ -5,7 +5,7 @@
 Hackintos only need Graphics kexts and the Clover bootloader does the rest of the work.
 
 
-### Fix Old Graphics card in macOS Catalina 10.15++
+### Fix Old Graphics card in macOS Catalina 10.15++ Not working in Big Sur 11 and Monterey 12
 - Support Graphics Intel HD 3000.
 - Support: GeForce 5xx, 4xx, 2xx, 8600M(GT)/8800M(GT), 9400M/9600M(GT), 320M/330M
 - Support AMD/ATI Radeon HD 5xxx and 6xxx series (Without having full QE/CI)
