@@ -63,7 +63,7 @@
 			<key>IOName</key>
 			<string>AMD4800Controller</string>
 			<key>IOPCIMatch</key>
-			<string>0x94401002 0x944a1002</string>
+			<string>0x94401002 0x944a1002 0x945a1002</string>
 			<key>IOProbeScore</key>
 			<integer>65050</integer>
 			<key>IOProviderClass</key>
